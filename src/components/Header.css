@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: cadetblue;
+}
+
+header > nav > ul {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+header > nav > ul > li > a {
+    color: azure;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header > nav > ul > li > a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid azure;
+}
+
+.header__logo {
+    font-size: 36px;
+    color: yellowgreen;
+}
+
+.header__logo > span {
+    color: azure;
+}
+
+.header__menu {
+    font-size: 25px;
+}
