@@ -1,0 +1,27 @@
+.diet__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+    margin-top: 60px;
+}
+
+.diet__container__text-box {
+    padding: 80px 50px;
+    border-top: 24px solid #57FF90;
+    background: #FEFCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 1000px;
+}
+
+.diet__container__text-box h2 {
+    margin-bottom: 60px;
+}
+
+.diet__text-box__topics {
+    display: grid;
+    gap: 40px;
+}
+
+.diet__text-box__topics p {
+    font-size: 18px;
+}

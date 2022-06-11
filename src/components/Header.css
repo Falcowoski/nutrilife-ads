@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
-    background-color: cadetblue;
+    background-color: #57FF90;
 }
 
 header > nav > ul {
@@ -25,7 +25,7 @@ header > nav > ul > li > a:hover {
 
 .header__logo {
     font-size: 36px;
-    color: yellowgreen;
+    color: #025E21;
 }
 
 .header__logo > span {

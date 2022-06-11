@@ -1,12 +1,14 @@
 import { Fragment } from 'react';
+import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
-import Main from './components/Main';
 
 function App() {
+  console.log("Olá")
+
   return (
     <Fragment>
-      <Header />
-      {/* <Main /> */}
+      <Header /> 
+      <Outlet />
     </Fragment>
   )
 }
