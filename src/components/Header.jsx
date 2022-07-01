@@ -11,8 +11,8 @@ function Header() {
                 <ul>
                     <li><Link to="/">Início</Link></li>
                     <li><Link to="diet">Dieta</Link></li>
-                    <li><Link to="imc">IMC</Link></li>
-                    <li><Link to="contact">Contato</Link></li>
+                    <li><Link to="terms">Termos</Link></li>
+                    <li><Link to="comments">Avaliações</Link></li>
                 </ul>  
             </nav>
         </header>

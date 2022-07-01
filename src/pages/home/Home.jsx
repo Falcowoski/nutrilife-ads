@@ -17,7 +17,9 @@ function Home() {
                 <Link to="/diet">
                     <img src={firstImage} />
                 </Link>
-                <img src={secondImage} />
+                <Link to="/terms">
+                    <img src={secondImage} />
+                </Link>
             </div>
         </main>
     )
