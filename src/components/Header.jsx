@@ -13,6 +13,7 @@ function Header() {
                     <li><Link to="diet">Dieta</Link></li>
                     <li><Link to="terms">Termos</Link></li>
                     <li><Link to="comments">Avaliações</Link></li>
+                    <li><Link to="imc">IMC</Link></li>
                 </ul>  
             </nav>
         </header>

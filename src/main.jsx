@@ -6,6 +6,7 @@ import './index.css'
 import Comments from './pages/comments/Comments'
 import Diet from './pages/diet/Diet'
 import Home from './pages/home/Home'
+import Imc from './pages/imc/Imc'
 import Terms from './pages/terms/Terms'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="diet" element={<Diet />} />
           <Route path="terms" element={<Terms />} />
           <Route path="comments" element={<Comments />} />
+          <Route path="imc" element={<Imc />} />
         </Route>
       </Routes>
     </BrowserRouter>
